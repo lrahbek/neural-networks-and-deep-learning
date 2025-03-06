@@ -36,7 +36,7 @@ def run_networks():
     training_data, validation_data, test_data = mnist_loader.load_data_wrapper()
     net = network2.Network([784, 30, 10], cost=network2.CrossEntropyCost())
     accuracies = []
-    for size in SIZES[-2:-1]:
+    for size in SIZES:
         print("\n\nTraining network with data set size %s" % size)
         net.large_weight_initializer()
         num_epochs = int(1500000 / size)
