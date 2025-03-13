@@ -6,3 +6,7 @@
 .DS_Store
 loc.py
 src/ec2
+notebooks/out.txt
+notebooks/more_data_svm.json
+notebooks/more_data.json
+notebooks/weight_initialization.txt
